@@ -1,0 +1,345 @@
+body{
+  font-family:'Courier New', Courier, monospace;
+}
+.fa-house{
+  font-size: 4rem;
+  color: chocolate;
+}
+
+div{
+  background: #222;
+}
+
+div>h1{
+  text-align: center;
+  text-shadow: 1px 2px 3px red;
+}
+div>p{
+  font-size: 20px;
+  text-align: center;
+  color: red;
+}
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Courier New', Courier, monospace;
+}
+ul li{
+  list-style-type: none;
+}
+ul li a{
+  text-decoration: none;
+  letter-spacing: 2px;
+  color:blue;
+}
+h3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: 2px 4px 6px black;
+}
+.you{
+  background: url('./jeep.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+    height: 400px;
+      display: flex;
+      align-items: end;
+      justify-content: end;
+      font-size: 60px;
+      color: red;
+      /* border: 5px solid black; */
+}
+.que{
+   background: black;
+   color: blue;
+   text-align: center;
+}
+.text{
+  text-align: right;
+  box-shadow: 2px 2px 20px red;
+  width: 80rem;
+  height: 200px;
+  margin: 30px;
+  margin-top: 2px;
+  background: black;
+  font-family: cursive;
+  color: #f15025;
+}
+.five:link{
+  color: red;
+}
+.five:hover{
+  color: blue;
+}
+.five{
+   text-decoration: underline;
+}
+.fore{
+  font-family: 'Courier New', Courier, monospace;
+  color: blue;
+}
+#neuf{
+  width: 600px;
+  height: 700px;
+  color: blue;
+  background: black;
+  border: 2px solid red;
+  text-decoration: none;
+  font-size: 2rem;
+  border-radius: 15px;
+  margin-left: 40%;
+  padding: 5px;
+}
+.ore{
+  color: #222;
+  background: red;
+  padding: 10px;
+  text-decoration: none;
+}
+/* about.html */
+.fa-address-card{
+  font-size: 4rem;
+  color: blue;
+}
+.var{
+  width: 250px;
+  height: 100px;
+  background: blue;
+  color: red;
+  margin-top: 10px;
+  padding: 10px;
+  transition: all 0.9s linear;
+}
+ .var:hover{
+ transform: translate(500px);
+ background: black;
+}
+ .un{
+  width: 300px;
+  height: 100px;
+  margin-top: 10px;
+  margin-right: 40px;
+  background: red;
+  display: inline-block;
+  transform: skew(70deg);
+} 
+.deux{
+  width: 300px;
+  height: 100px;
+  margin-top: 10px;
+  margin-right: 40px;
+  background: #222;
+  display: inline-block;
+  transform: skew(-60deg);
+}
+.trois{
+  width: 300px;
+  height: 100px;
+  margin-top: 10px;
+  margin-right: 40px;
+  background: blue;
+  display: inline-block;
+  transform: skew(70deg);
+}
+#dove{
+  color: gold;
+  text-shadow: 1px 2px 3px #fff;
+}
+.cinq{
+  text-shadow: 1px 2px 3px red;
+  background: yellow;
+  width: 80rem;
+  height: 665px;
+  margin-left: 20px;
+  color: black;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  transition: all 0.9s linear;
+}
+.cinq:hover{
+  box-shadow: 5px 10px 20px blue;
+}
+#nuit{
+  width: 300px;
+  height: 700px;
+  color: #222;
+  font-weight: bold;
+  background: red;
+  border: 3px solid blue;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 5px;
+  margin-left: 40%;
+  font-size: 2rem;
+}
+#dix{
+    font-size: 2rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-decoration: none;
+    background: red;
+    position: fixed;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+/* product.html */
+.fa-slack{
+  color: red;
+  font-size: 4rem;
+}
+.onze{
+  width: 20rem;
+  height: 200px;
+    background: aqua;
+    font-size: 50px;
+    padding: 10px;
+    margin-left: 25px;
+    animation: move 10s infinite;
+}
+@keyframes move{
+    0%{
+      transform: translateX(700px);
+      color: yellow;
+      border-radius: 0;
+    }
+        25% {
+          transform: translateX(50%);
+          background: red;
+          border-radius: 25px;
+        }
+                50% {
+                  transform: translateX(1200px);
+                  backgroun: green;
+                  border-radius: 50px;
+                }
+                                75% {
+                                  transform: translateX(900px);
+                                  backgroun: chocolate;
+                                  border-radius: 75px;
+                                }
+                                100% {
+                                 transform: translateX(-700px);
+                                background: orange;
+                                border-radius: 100px;
+                                    }
+}
+img{
+  width: 28%;
+  height: 300px;
+  margin: 20px;
+  display: inline-block;
+}
+/* .cent{
+  width: 35rem;
+  height: 35rem;
+  border: 3px solid grey;
+  margin: 190px;
+} */
+.i{
+  display: inline-block;
+  margin: 20px;
+}
+.ii{
+  display: inline-block;
+  margin: 20px;
+}
+.iii{
+  display: inline-block;
+  margin: 20px;
+}
+.iv{
+  display: inline-block;
+  margin: 20px;
+}
+.v{
+  display: inline-block;
+  margin: 20px;
+}
+.vi{
+  display: inline-block;
+  margin: 20px;
+}
+.vii{
+  display: inline-block;
+  margin: 20px;
+}
+.viii{
+  display: inline-block;
+  margin: 20px;
+}
+.ix{
+  display: inline-block;
+  margin: 20px;
+}
+.g-wagon{
+  /* font-family: 'Cuprum',
+      sans-serif;
+    font-family: 'Roboto',
+      sans-serif; 
+    font-family: 'Yesteryear',
+      cursive;*/
+      font-size: 40px;
+      margin: 30px;
+      text-shadow: 1px 2px 3px navy;
+      text-align: center;
+}
+ /* contact.html */
+ .fa-phone{
+  color: lime;
+  font-size: 4rem;
+ }
+ img{
+  width: 520px;
+  display: block;
+ }
+ .mostly{
+  width: 40vw;
+  margin: 10px;
+  border: 3px solid grey;
+  display: inline-block;
+ }
+ .cloudy{
+  width: 40vw;
+  margin: 10px;
+  border: 3px solid blue;
+  display: inline-block;
+ }
+ .here{
+  width: 40vw;
+  margin: 10px;
+  border: 3px solid orange;
+  display: inline-block;
+ }
+ .honey{
+  width: 40vw;
+    margin: 10px;
+    border: 3px solid red;
+    display: inline-block;
+ }
+ .alt{
+  text-align: center;
+  font-size: 2rem;
+  margin: 50px;
+  text-shadow: 1px 2px 3px blue;
+ }
+ .bmw {
+   font-family: 'Roboto',
+     sans-serif;
+   font-family: 'Yesteryear',
+     cursive;
+   font-size: 40px;
+   margin: 30px;
+   text-shadow: 1px 2px 3px red;
+   text-align: center;
+ }
+ /* #ctrl{
+  text-align: center;
+    font-size: 2rem;
+    margin: 20px;
+    text-shadow: 1px 2px 3px red;
+ } */
